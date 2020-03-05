@@ -39,7 +39,16 @@ public class MainActivity extends AppCompatActivity {
         btnnAdd2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                TextView tv = findViewById(R.id.textView2);
+                if(placar2 < 11) {
+                    placar2 = placar2 + 1;
+                    tv.setText("" + placar2);
+
+                }else{
+                    tv.setText("temos um vencedor");
+                    placar1 = 0;
+                    placar2 = 0;
+                }
             }
         });
 

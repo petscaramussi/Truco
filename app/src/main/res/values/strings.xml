@@ -2,4 +2,5 @@
     <string name="app_name">Truco</string>
     <string name="number">0</string>
     <string name="bName">+1</string>
+    <string name="bTruco">Truco</string>
 </resources>
