@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         final Button btnAdd1 = findViewById(R.id.button);
         final Button btnnAdd2 = findViewById(R.id.button2);
         Button Truco = findViewById(R.id.TrucoBtn);
-        final TextView tv = findViewById(R.id.textView3);
+        final TextView tv1 = findViewById(R.id.textView3);
+        final TextView tv2 = findViewById(R.id.textView2);
         final Intent win = new Intent(this, WinActivity.class);
         final Button btnMenos1 = findViewById(R.id.button3);
         final Button btnMenos2 = findViewById(R.id.button4);
@@ -38,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
                 if(teste < 12) {
                     if (placar1 < 11) {
                         placar1 = placar1 + trucoM;
-                        tv.setText("" + placar1);
+                        tv1.setText("" + placar1);
 
                     } else {
-                        tv.setText(""+(placar1+1));
+                        tv1.setText(""+12);
                         startActivity(win);
                         recreate();
 
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 }else{
-                    tv.setText(""+(placar1+1));
+                    tv1.setText(""+12);
                     startActivity(win);
                     recreate();
 
@@ -63,22 +64,22 @@ public class MainActivity extends AppCompatActivity {
         btnnAdd2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TextView tv = findViewById(R.id.textView2);
+
                 int teste2 = trucoM + placar2;
                 if(teste2 < 12) {
                     if (placar2 < 11) {
                         placar2 = placar2 + trucoM;
-                        tv.setText("" + placar2);
+                        tv2.setText("" + placar2);
 
                     } else {
-                        tv.setText("12");
+                        tv2.setText(""+12);
                         startActivity(win);
                         recreate();
 
 
                     }
                 }else{
-                    tv.setText("12");
+                    tv2.setText(""+12);
                     startActivity(win);
                     recreate();
                 }
@@ -117,6 +118,27 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
+
+            }
+        });
+
+        btnMenos1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(placar1 >= 1) {
+                    placar1 = placar1 - 1;
+                    tv1.setText("" + placar1);
+                }
+            }
+        });
+
+        btnMenos2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(placar2 >= 1) {
+                    placar2 = placar2 - 1;
+                    tv2.setText("" + placar2);
+                }
 
             }
         });
