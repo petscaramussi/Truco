@@ -1,6 +1,7 @@
 package com.example.truco;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         final Button btnAdd1 = findViewById(R.id.button);
         final Button btnnAdd2 = findViewById(R.id.button2);
         Button Truco = findViewById(R.id.TrucoBtn);
@@ -44,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         tv1.setText(""+12);
                         startActivity(win);
-                        recreate();
 
 
 
@@ -52,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     tv1.setText(""+12);
                     startActivity(win);
-                    recreate();
 
                 }
                 btnnAdd2.setText("+1");
@@ -74,14 +77,12 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         tv2.setText(""+12);
                         startActivity(win);
-                        recreate();
 
 
                     }
                 }else{
                     tv2.setText(""+12);
                     startActivity(win);
-                    recreate();
                 }
                 btnAdd1.setText("+1");
                 btnnAdd2.setText("+1");
