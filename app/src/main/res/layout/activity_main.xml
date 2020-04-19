@@ -9,10 +9,10 @@
 
     <TextView
         android:id="@+id/tvTimeName2"
-        android:layout_width="115dp"
-        android:layout_height="40dp"
+        android:layout_width="135dp"
+        android:layout_height="29dp"
         android:layout_marginTop="170dp"
-        android:layout_marginEnd="72dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="280dp"
         android:fontFamily="@font/roboto"
         android:text="Time B"
@@ -21,7 +21,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <Button
         android:id="@+id/button4"
@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="96dp"
+        android:layout_marginEnd="84dp"
         android:fontFamily="sans-serif"
         android:text="@string/number"
         android:textColor="@color/white"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.491" />
+        app:layout_constraintVertical_bias="0.49" />
 
     <Button
         android:id="@+id/button"
@@ -124,9 +124,9 @@
 
     <TextView
         android:id="@+id/tvTimeName"
-        android:layout_width="115dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="36dp"
+        android:layout_width="135dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="52dp"
         android:layout_marginTop="170dp"
         android:layout_marginBottom="280dp"
         android:fontFamily="@font/roboto"
