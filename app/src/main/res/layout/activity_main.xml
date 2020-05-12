@@ -7,90 +7,49 @@
     android:background="@drawable/back"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="137dp"
+        android:layout_height="179dp"
+        android:background="@drawable/placar"
+        android:text="0"
+        android:textSize="87dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
     <TextView
         android:id="@+id/tvTimeName2"
         android:layout_width="135dp"
         android:layout_height="29dp"
         android:layout_marginTop="170dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="280dp"
         android:fontFamily="@font/roboto"
         android:text="Time B"
         android:textColor="@color/white"
         android:textSize="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="36dp"
-        android:layout_height="31dp"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
         android:layout_marginTop="260dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="68dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/menos"
+        android:background="@drawable/circle"
         android:text="@string/bmenos"
-        android:textColor="@color/white"
+        android:textColor="#000"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="84dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/number"
-        android:textColor="@color/white"
-        android:textSize="82sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="84dp"
-        android:fontFamily="sans-serif"
-        android:text="@string/number"
-        android:textColor="@color/white"
-        android:textSize="82sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.49" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="56dp"
-        android:background="@drawable/circle"
-        android:text="@string/bName"
-        android:textColor="@color/greyxd"
-        android:textSize="24dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="84dp"
-        android:background="@drawable/circle"
-        android:text="@string/bName"
-        android:textColor="@color/greyxd"
-        android:textSize="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintVertical_bias="0.57" />
 
     <Button
         android:id="@+id/TrucoBtn"
@@ -110,17 +69,19 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="36dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="24dp"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="68dp"
         android:layout_marginTop="260dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/menos"
+        android:background="@drawable/circle"
         android:text="@string/bmenos"
-        android:textColor="@color/white"
+        android:textColor="#000"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
 
     <TextView
         android:id="@+id/tvTimeName"
@@ -128,13 +89,26 @@
         android:layout_height="29dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="170dp"
-        android:layout_marginBottom="280dp"
         android:fontFamily="@font/roboto"
         android:text="Time A"
         android:textColor="@color/white"
         android:textSize="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="144dp"
+        android:layout_height="181dp"
+        android:background="@drawable/placar"
+        android:text="0"
+        android:textSize="87dp"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
