@@ -3,8 +3,8 @@
 o material design e o Adobe XD para auxlio na criação das telas.
 
 ## Primeira tela
-<img src="https://github.com/petscaramussi/Truco/blob/master/truco2.jpg" width="100" hight="100" > 
+<img src="https://github.com/petscaramussi/Truco/blob/master/truco2.jpg" width="30%" hight="30%" > 
 
 
 ## Segunda tela (tela de vitoria)
-![printscreamTela2](https://github.com/petscaramussi/Truco/blob/master/truco1.jpg)
+<img src="https://github.com/petscaramussi/Truco/blob/master/truco1.jpg" width="30%" hight="30%" >
