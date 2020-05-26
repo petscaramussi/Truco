@@ -3,8 +3,8 @@
 o material design e o Adobe XD para auxlio na criação das telas.
 
 ## Primeira tela
-![printsreamTela1]()
+![printsreamTela1](Truco1.jpg)
 
 
 ## Segunda tela (tela de vitoria)
-![printscreamTela2]()
+![printscreamTela2](Truco2.jpg)
